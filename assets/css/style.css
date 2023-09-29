@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
 * {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -13,14 +15,14 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(90deg, #dcd1cd 35%, rgba(0, 212, 255, 1)100%);
+    background: rgb(61, 153, 171);
 
 }
 
 .container{
 
-    height: 260px;
-    background: #ffff;
+    height: 300px;
+    background: white;
     max-width: 410px;
     border-radius: 7px;
     padding: 16px 25px;
@@ -30,7 +32,7 @@ body{
 
 .container.active{
 
-    height: 530px;
+    height: 550px;
 
 }
 
@@ -78,7 +80,7 @@ header p{
 .form button{
 
     color: #fff;
-    background: #987a71;
+    background: red;
     margin-top: 20px;
     font-size: 17px;
     cursor: pointer;
@@ -89,7 +91,7 @@ header p{
 
 .form button:hover{
 
-    background: #b8958a;
+    background: #df3704;
 }
 
 .container .qr-code{
