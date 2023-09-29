@@ -5,6 +5,9 @@ Usar o Gerador de QR Code é simples. Basta inserir as informações que deseja 
 
 # Experimente o Gerador de Qr Code:
 
+https://amandamoreirainfo.github.io/geradorqrcode/
 
 
 # Capturas de telas
+<img src="assets/image/image_do_site_!.png">
+<img src="assets/image/image_do_site_2.png">
