@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: white;
 
 }
 
@@ -15,16 +16,18 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgb(61, 153, 171);
+    background: black;
 
 }
 
 .container{
 
+
     height: 300px;
-    background: white;
-    max-width: 410px;
+    background:  black;
+    max-width: 1000px;
     border-radius: 7px;
+    border-style: solid;
     padding: 16px 25px;
     transition: height 0.5s ease;
 
@@ -40,22 +43,25 @@ header h1{
 
     text-align: center;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
 
 }
 
 header p{
 
-    color: #474747;
+    color: white;
     font-size: 16px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 8px;
 
 }
 
 .container .form{
 
-    padding: 20px 0 25px;
+    padding: 10px 0 25px;
+    width: 500px;
+    height: 100px;
+   
 
 }
 
@@ -73,14 +79,18 @@ header p{
 
     padding: 0 17px;
     font-size: 18px;
-    border: 1px solid #999;
+    border: 1px solid white;
+    color: white;
+    background-color:  black;
 
 }
 
+
+
 .form button{
 
-    color: #fff;
-    background: red;
+    color: white;
+    background: rgb(10, 102, 10);
     margin-top: 20px;
     font-size: 17px;
     cursor: pointer;
@@ -91,7 +101,7 @@ header p{
 
 .form button:hover{
 
-    background: #df3704;
+    background: #136e11dd;
 }
 
 .container .qr-code{
@@ -99,7 +109,7 @@ header p{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 33px 0;
+    padding: 60px 0;
     pointer-events: none;
 
 }
@@ -119,5 +129,10 @@ header p{
 
 }
 
+.imageSemFundo{
+
+    width: 20rem;
+
+}
 
 
